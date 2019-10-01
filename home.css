@@ -1,0 +1,159 @@
+
+/* Style sheet for Kate's professional website */
+
+/* Color Palette:
+		#174652
+		#fdf6e3
+		#2aa198
+		#002b36		*/
+
+body {
+    background-color: #def3f6;
+    color: black;
+    font-family: "Garamond", "Baskerville", 
+        "Baskerville Old Face", "Hoefler Text",
+        "Times New Roman", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the header */
+.header_main {
+    min-width: 925px;
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    background-color: #174652;
+    background-size: cover;
+    font-family: "Garamond", "Baskerville", 
+        "Baskerville Old Face", "Hoefler Text",
+        "Times New Roman", sans-serif;
+}
+
+.headercont {
+    margin-left: auto;
+    margin-right: auto;
+    width: 925px;
+}
+
+.headercont p.title {
+    font-size: 40px;
+    color: #fdf6e3;
+    text-align: left;
+    margin: 15px;
+    border: 0;
+    font-style: bold;
+}
+
+.headercont p.subtitle {
+    font-size: 20px;
+    color: #2aa198;
+    text-align: left;
+    margin: 15px;
+    border: 0;
+}
+
+/* Signature footer */
+.footer_main {
+    padding: 0;
+    margin: 20px;
+    background-color: #def3f6;
+    border: 0;
+    width: 100%;
+}
+
+.footer_main p {
+    min-width: 925px;
+    font-size: 8px;
+    text-align: center;	
+    color: #888888;
+}
+
+
+/* Navigation bar for main page*/
+ul.navi_main {
+    width: 100%;
+    min-width: 925px;
+    padding: 5px;
+    margin: 0;
+    margin-top: 10px;
+    background-color: #def3f6;
+    font-size: 100%;
+    text-align: center;
+}
+
+ul.navi_main li {
+    display: inline;
+    margin: 5px;
+}
+
+
+ul.navi_main li a {
+    text-align: center;
+    background-color: #def3f6;
+    float: center;
+    padding: 20px;
+}
+
+
+ul.navi_main li a:hover:not(.active) {
+    color: #2aa198;
+}
+
+ul.navi_main li a:link {
+    text-decoration: underline;
+    color: #174652;
+}
+
+ul.navi_main li a:visited {
+    text-decoration: underline;
+    color: #174652;
+}
+
+/* In-body Columns */
+
+.column_2 {
+    margin: 0;
+    float: left;
+    width: 50%;
+}
+
+.column_3_1 {
+    margin: 0;
+    float: left;
+    width: 33%;
+}
+
+.column_3_2 {
+    margin: 0;
+    float: left;
+    width: 67%;
+}
+
+.column_4_1 {
+    margin: 0;
+    float: left;
+    width: 25%;
+}
+
+.column_4_3 {
+    margin: 0;
+    float: left;
+    width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+        
