@@ -77,6 +77,59 @@ body {
     color: #888888;
 }
 
+.body_main {
+    min-width: 925px;
+    padding: 80px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    font-family: "Garamond", "Baskerville", 
+        "Baskerville Old Face", "Hoefler Text",
+        "Times New Roman", sans-serif;
+}
+
+.body_main h2 {
+    font-size: 40px;
+    color: #174652;
+    text-align: center;
+    margin: 10px;
+    border: 0;
+    font-style: bold;
+}
+
+.body_main h3 {
+    font-size: 25px;
+    color: #174652;
+    text-align: center;
+    margin: 10px;
+    border: 0;
+    font-style: bold;
+}
+
+.body_main p {
+    font-size: 20px;
+    color: #174652;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 0;
+    font-style: bold;
+}
+
+.body_main p a:hover:not(.active) {
+    color: #2aa198;
+}
+
+.body_main p a:link {
+    text-decoration: underline;
+    color: #174652;
+}
+
+.body_main p a:visited {
+    text-decoration: underline;
+    color: #174652;
+}
 
 /* Navigation bar for main page*/
 ul.navi_main {
